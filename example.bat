@@ -1,11 +1,11 @@
 rem @echo off
 setlocal
 
-set enginepath=type your unreal engine path
-set msbuild=type msbuild path
-set projectname=type your project name
-set nowdir=type workspace directory name
-set outputdir=type build output directory name
+set enginepath=D:\UE_4.15\Engine
+set msbuild=C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe
+set projectname=TestProject
+set nowdir=%WORKSPACE%
+set outputdir=E:\Archived
 
 rd /s /q "%nowdir%\Binaries"
 rd /s /q "%nowdir%\Intermediate"
